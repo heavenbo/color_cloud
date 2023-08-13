@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/noetic/include/*",
+                "~/acfly_ws/devel/include/mavros_msgs/*",
+                "/usr/local/opencv-4.5.5/include/opencv4",
+                "/usr/local/include/apriltag",
+                "/usr/include/eigen3",
+                "/usr/include/pcl-1.10/"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64",
+            "configurationProvider": "go2sh.cmake-integration"
+        }
+    ],
+    "version": 4
+}

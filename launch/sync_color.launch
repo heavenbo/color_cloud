@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="color_cloud" type="sync_color" name="vins" output="screen" /> 
+
+    <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d /home/oem/tool_ws/src/color_cloud/launch/rgbcloud.rviz" />
+
+</launch>
